@@ -15,7 +15,7 @@ Data enters a web application through an untrusted source. In the case of persis
 
 Proof of Concept:
 
-As observed in the screenshot below, when we send a XSS payload query(we use "</div>" to close <div> tag in HTML) in the "txtfullname" field for the "Add User" portal, the page of "Admin Record" shows an alert, suggesting a persistent XSS vulnerability.
+As observed in the screenshot below, when we send a XSS payload query(we use "&lt;/div&gt;" to close &lt;div&gt; tag in HTML) in the "txtfullname" field for the "Add User" portal, the page of "Admin Record" shows an alert, suggesting a persistent XSS vulnerability.
 
 ![](Pasted%20image%2020240920170315.png)
 
