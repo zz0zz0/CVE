@@ -1,7 +1,7 @@
-***XSS in SourceCodester Employee Management System 1.0 (index.php)***
+***XSS in SourceCodester Online Timesheet App 1.0 (index.php)***
 
 **summary:** 
-**A vulnerability classified as problematic was found in SourceCodester Employee Management System 1.0. This vulnerability affects unknown code of the file /Admin/add-admin.php. The manipulation of the argument txtfullname leads to cross site scripting.**
+****A vulnerability classified as problematic was found in SourceCodester Online Timesheet App 1.0. This vulnerability affects unknown code of the file index.php. The manipulation of the argument day/task leads to cross site scripting.****
 
 ***Affected Locations:***
 
